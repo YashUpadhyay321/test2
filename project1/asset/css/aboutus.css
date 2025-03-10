@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about-page{
+    background-image: url(/project1/asset/images/about1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+#about-page h5{
+    font-size: 12px;
+}
+#about-page h1{
+    font-size: min(5vw,45px);
+    width: 20ch;
+    
+}
+#about-page h3{
+    font-size:min(4vw,20px);
+    width: 40ch;
+}
+.about{
+    display:flex;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.about img{
+    width: 600px;
+    box-shadow: 10px 10px  rgba(0, 132, 255, 0.7)
+}
+.about h2{
+    font-size: 35px ;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+}
+.about div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.about p{
+    font-size: 14px;
+   
+    color: rgb(71, 71, 71);
+}
+.about h4{
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+}
+#about-img{
+    width: 600px;
+    box-shadow: -10px 10px   rgba(0, 132, 255, 0.7)
+}
+#price-policy{
+    background-color: rgb(182, 223, 236);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#inner-policy{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+#inner-policy h3{
+    color: rgb(43, 79, 179);
+    font-size: min(4vw,15px);
+}
+#inner-policy h2{
+    font-size: min(5vw,38px);
+    text-align: center;
+    color: rgb(27, 27, 27);
+    width: 30ch;
+    font-weight: 500;
+}
+#inner-policy p{
+    font-size: 13px;
+    width: 80ch;
+    text-align: center;
+    color: rgb(11, 11, 83);
+}
+#creative{
+    text-align: center;
+    margin-top: 50px;
+}
+#creative h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+#creative p{
+    font-size: 13px;
+}
+#creative-team{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.creative-team{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+  }
+
+.creative-team h3{
+    color: rgb(165, 164, 164);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.creative-team h2{
+    font-weight: 500;
+    font-size: 23px;
+}
+.creative-team img{
+    width: 280px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 5px rgb(14, 72, 148) solid;
+
+}
+@media (max-width: 990px){
+    .about{
+        flex-direction: column;
+    }
+    .about img{
+        max-width: 100%;
+        box-shadow: 5px 5px  rgba(0, 132, 255, 0.7)
+    }
+    #about-img{
+        box-shadow: -5px 5px   rgba(0, 132, 255, 0.7)
+
+    }
+    #inner-policy p{
+        width: 30ch;
+    }
+    
+}

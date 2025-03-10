@@ -1,0 +1,41 @@
+#return{
+    background-color: rgba(219, 219, 219, 0.637);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#return p{
+    font-size: 10px;
+    color: grey;
+}
+#return h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+}   
+.ret-width{
+    max-width: 780px;
+    margin: auto;
+    padding: 10px;
+}
+.ret-content{
+    display: flex;  
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ret-content h2{
+    font-size: 33px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+.ret-content p{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
+}
+.ret-content div{
+    padding-left: 20px;
+}

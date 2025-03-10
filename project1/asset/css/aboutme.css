@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#me-page{
+    background-image: url(/project1/asset/images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 30px;
+    align-items: center;
+   
+}
+#me-page h2{
+    font-size: min(6vw,40px);
+    font-weight: 500;
+}
+#me-page p{
+    font-size: min(3vw,15px);
+    width: 60ch;
+    font-weight: 400;
+    line-height: 1.8;
+}
+#about-com{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+#com-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+#com-para p{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+    width: 75ch;
+    font-weight: 400;
+}
+#com-para h3{
+    color: blue;
+    font-size: min(2vw,13px);
+    letter-spacing: 2px;
+}
+#com-para h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+}
+#com-para a{
+    color: black;
+    font-size: 13px;
+}
+#com-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+#com-img img{
+    height: 300px;
+}
+#mordern{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#mordern div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+#mordern img{
+    width: 600px;
+    border-radius: 5px;
+    border: 0.5px rgb(190, 190, 190) solid;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#mordern h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+}
+#mordern p{
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+}
+#mordern a{
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+}
+@media (max-width: 990px){
+    #about-com,#mordern{
+        flex-direction: column;
+    }
+    #com-para p{
+        
+        width: 30ch;   
+    }
+    #mordern img{
+       width: 100%;
+    }
+}
